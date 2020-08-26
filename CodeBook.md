@@ -5,12 +5,15 @@ date: "26 8 2020"
 output: pdf_document
 ---
 
-## Variables
+# Variables
 
+```{r}
+variablename
+```
 test1
 
-## Data
+# Data
 
 test2
 
-## Transformation
+# Transformation
