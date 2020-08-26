@@ -7,10 +7,21 @@ output: pdf_document
 
 # Variables
 
+## Data frames
+
+### Test set
 ```{r}
-variablename
+test_person # df of numbers describing which row belongs to which person
+test_activity # df of numbers describing which activity has been done by the person of test_person from the same line
+test_data # data sets of the measurements
 ```
-test1
+
+### Train set
+```{r}
+train_person # df of numbers describing which row belongs to which person
+test_activity # df of numbers describing which activity has been done by the person of train_person from the same line
+train_data # data sets of the measurements
+```
 
 # Data
 
